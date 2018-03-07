@@ -205,7 +205,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tWarn_1"/>
   </node>
-  <node componentName="AMC_Create_Logs" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="128" posY="64">
+  <node componentName="AMC_Create_Logs" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="224" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="AMC_Create_Logs_1"/>
     <elementParameter field="TEXT" name="FAMILY" value="Joblets"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
