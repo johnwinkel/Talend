@@ -306,10 +306,10 @@
       <elementParameter field="PASSWORD" name="PASS" value="PoLvNyVG2XWndNDdLn696A=="/>
       <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
       <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-      <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
-      <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" value="" show="false"/>
-      <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
-      <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+      <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="true"/>
+      <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" value="&quot;AMC&quot;"/>
+      <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
+      <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
       <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
       <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
       <elementParameter field="TEXT" name="LABEL" value="AMC"/>
@@ -786,14 +786,6 @@
         <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       </metadata>
     </node>
-    <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="32" posY="96">
-      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
-      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    </node>
-    <node componentName="tPostjob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="448">
-      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
-      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    </node>
     <node componentName="tMysqlCommit" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="576" posY="448">
       <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMysqlCommit_1" show="false"/>
       <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tMysqlConnection_1"/>
@@ -805,13 +797,22 @@
       <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
       <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
     </connection>
+    <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tLogCatcher_1" offsetLabelX="0" offsetLabelY="0" source="tLogCatcher_1" target="tFlowMeterCatcher_1">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk4" show="false"/>
+    </connection>
     <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tLogRow_1" offsetLabelX="0" offsetLabelY="0" source="tLogRow_1" target="tMysqlOutput_2">
       <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
       <elementParameter field="TEXT" name="UNIQUE_NAME" value="row4" show="false"/>
     </connection>
+    <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tMysqlConnection_1" offsetLabelX="0" offsetLabelY="0" source="tMysqlConnection_1" target="tStatCatcher_1">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk2" show="false"/>
+    </connection>
     <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tStatCatcher_1" offsetLabelX="0" offsetLabelY="0" source="tStatCatcher_1" target="tLogRow_2">
       <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
       <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
+    </connection>
+    <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tStatCatcher_1" offsetLabelX="0" offsetLabelY="0" source="tStatCatcher_1" target="tLogCatcher_1">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk3" show="false"/>
     </connection>
     <connection connectorName="FLOW" label="row5" lineStyle="0" metaname="tLogRow_2" offsetLabelX="0" offsetLabelY="0" source="tLogRow_2" target="tMysqlOutput_1">
       <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
@@ -821,15 +822,12 @@
       <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
       <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3" show="false"/>
     </connection>
+    <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tFlowMeterCatcher_1" offsetLabelX="0" offsetLabelY="0" source="tFlowMeterCatcher_1" target="tMysqlCommit_1">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
+    </connection>
     <connection connectorName="FLOW" label="row6" lineStyle="0" metaname="tLogRow_3" offsetLabelX="0" offsetLabelY="0" source="tLogRow_3" target="tMysqlOutput_3">
       <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
       <elementParameter field="TEXT" name="UNIQUE_NAME" value="row6" show="false"/>
-    </connection>
-    <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tMysqlConnection_1">
-      <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk4" show="false"/>
-    </connection>
-    <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostjob_1" offsetLabelX="0" offsetLabelY="0" source="tPostjob_1" target="tMysqlCommit_1">
-      <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
     </connection>
     <subjob>
       <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogCatcher_1" show="false"/>
@@ -850,18 +848,6 @@
       <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFlowMeterCatcher_1" show="false"/>
       <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
       <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
-    </subjob>
-    <subjob>
-      <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
-      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
-      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
-      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
-    </subjob>
-    <subjob>
-      <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
-      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
-      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
-      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
     </subjob>
     <subjob>
       <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMysqlCommit_1" show="false"/>
