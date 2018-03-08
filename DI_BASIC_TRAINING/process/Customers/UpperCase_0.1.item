@@ -206,8 +206,7 @@
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="CappedOut" name="CappedOut">
-      <column comment="" key="false" length="15" name="First" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="15" usefulColumn="true"/>
-      <column comment="" key="false" length="15" name="Last" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="15" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="Name" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="15" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="Number" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="10" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="Street" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="20" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="City" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="20" usefulColumn="true"/>
@@ -217,8 +216,7 @@
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="CappedOut">
-        <mapperTableEntries name="First" expression="row1.First " type="id_String" nullable="true"/>
-        <mapperTableEntries name="Last" expression="row1.Last " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Name" expression="row1.First  row1.Last " type="id_String" nullable="true"/>
         <mapperTableEntries name="Number" expression="row1.Number " type="id_String" nullable="true"/>
         <mapperTableEntries name="Street" expression="row1.Street " type="id_String" nullable="true"/>
         <mapperTableEntries name="City" expression="row1.City " type="id_String" nullable="true"/>
@@ -261,12 +259,11 @@
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
-    <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" value="true"/>
+    <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" value="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="90" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="CappedOut" name="tFileOutputDelimited_1">
-      <column comment="" key="false" length="15" name="First" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="15" usefulColumn="true"/>
-      <column comment="" key="false" length="15" name="Last" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="15" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="Name" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="15" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="Number" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="10" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="Street" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="20" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="City" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="20" usefulColumn="true"/>
