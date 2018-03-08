@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_2sBhkCMQEeiNWOmlcjxXQw" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_2sBhkSMQEeiNWOmlcjxXQw" comment="" name="LocalMySQL_Port" prompt="LocalMySQL_Port?" promptNeeded="false" type="id_String" value="3306"/>
+  <contextParameter xmi:id="_2sBhkiMQEeiNWOmlcjxXQw" comment="" name="LocalMySQL_Login" prompt="LocalMySQL_Login?" promptNeeded="false" type="id_String" value="root"/>
+  <contextParameter xmi:id="_2sBhkyMQEeiNWOmlcjxXQw" comment="" name="LocalMySQL_Server" prompt="LocalMySQL_Server?" promptNeeded="false" type="id_String" value="server01"/>
+  <contextParameter xmi:id="_2sBhlCMQEeiNWOmlcjxXQw" comment="" name="LocalMySQL_Password" prompt="LocalMySQL_Password?" promptNeeded="false" type="id_Password" value="1QY6ZyNqCD4BAhKeqSkILQ=="/>
+  <contextParameter xmi:id="_2sBhlSMQEeiNWOmlcjxXQw" comment="" name="LocalMySQL_Database" prompt="LocalMySQL_Database?" promptNeeded="false" type="id_String" value="Training"/>
+  <contextParameter xmi:id="_2sBhliMQEeiNWOmlcjxXQw" comment="" name="LocalMySQL_AdditionalParams" prompt="LocalMySQL_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+</talendfile:ContextType>
