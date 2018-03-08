@@ -4,6 +4,6 @@
     <contextParameter xmi:id="_Db5IcSL7EeiNWOmlcjxXQw" comment="Output Diriectory" name="RepoOutputDir" prompt="RepoOutputDir?" promptNeeded="false" type="id_String" value="&quot;D:/Talend/Test Data/&quot;"/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_Db5IciL7EeiNWOmlcjxXQw" confirmationNeeded="false" name="Production">
-    <contextParameter xmi:id="_Db5IcyL7EeiNWOmlcjxXQw" comment="Output Diriectory" name="RepoOutputDir" prompt="RepoOutputDir?" promptNeeded="false" type="id_String" value="&quot;D:/Talend/Test Data/Production/&quot;"/>
+    <contextParameter xmi:id="_Db5IcyL7EeiNWOmlcjxXQw" comment="Output Diriectory" name="RepoOutputDir" prompt="RepoOutputDir?" promptNeeded="false" type="id_String" value="&quot;D:/Talend/Test Data/New_Production/&quot;"/>
   </talendfile:ContextType>
 </xmi:XMI>
