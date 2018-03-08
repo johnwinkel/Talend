@@ -222,7 +222,7 @@
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-      <outputTables sizeState="INTERMEDIATE" name="CappedOut" expressionFilter="&quot;AK&quot;.equals(row2.StateCode)" activateExpressionFilter="true">
+      <outputTables sizeState="INTERMEDIATE" name="CappedOut" expressionFilter="&quot;NY&quot;.equals(row2.StateCode)" activateExpressionFilter="true">
         <mapperTableEntries name="Name" expression="row1.First + &quot; &quot; + row1.Last " type="id_String" nullable="true"/>
         <mapperTableEntries name="Number" expression="row1.Number " type="id_String" nullable="true"/>
         <mapperTableEntries name="Street" expression="row1.Street " type="id_String" nullable="true"/>
