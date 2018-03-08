@@ -220,9 +220,9 @@
       <column comment="" key="false" length="20" name="StateName" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-      <outputTables sizeState="INTERMEDIATE" name="CappedOut">
+      <outputTables sizeState="INTERMEDIATE" name="CappedOut" expressionFilter="&quot;AK&quot;.equals(row2.StateCode)" activateExpressionFilter="true">
         <mapperTableEntries name="Name" expression="row1.First + &quot; &quot; + row1.Last " type="id_String" nullable="true"/>
         <mapperTableEntries name="Number" expression="row1.Number " type="id_String" nullable="true"/>
         <mapperTableEntries name="Street" expression="row1.Street " type="id_String" nullable="true"/>
