@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Production" jobType="Standard">
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="Output Directory" name="OutputDir" prompt="OutputDir?" promptNeeded="false" type="id_String" value="&quot;D:/Talend/Test Data/&quot;"/>
-    <contextParameter comment="Output Diriectory" name="RepoOutputDir" prompt="RepoOutputDir?" promptNeeded="false" repositoryContextId="_Dbv-gCL7EeiNWOmlcjxXQw" type="id_String" value="&quot;D:/Talend/Test Data/&quot;"/>
+    <contextParameter comment="Input Directory" name="RepoInputDir" prompt="RepoInputDir?" promptNeeded="false" repositoryContextId="_Dbv-gCL7EeiNWOmlcjxXQw" type="id_String" value="&quot;D:/Talend/Test Data/&quot;"/>
+    <contextParameter comment="Output Directory" name="RepoOutputDir" prompt="RepoOutputDir?" promptNeeded="false" repositoryContextId="_Dbv-gCL7EeiNWOmlcjxXQw" type="id_String" value="&quot;D:/Talend/Test Data/&quot;"/>
   </context>
   <context confirmationNeeded="false" name="Production">
     <contextParameter comment="Output Directory" name="OutputDir" prompt="OutputDir?" promptNeeded="false" type="id_String" value="&quot;D:/Talend/Test Data/Production/&quot;"/>
-    <contextParameter comment="Output Diriectory" name="RepoOutputDir" prompt="RepoOutputDir?" promptNeeded="false" repositoryContextId="_Dbv-gCL7EeiNWOmlcjxXQw" type="id_String" value="&quot;D:/Talend/Test Data/New_Production/&quot;"/>
+    <contextParameter comment="Input Directory" name="RepoInputDir" prompt="RepoInputDir?" promptNeeded="false" repositoryContextId="_Dbv-gCL7EeiNWOmlcjxXQw" type="id_String" value="&quot;D:/Talend/Test Data/New_Production/&quot;"/>
+    <contextParameter comment="Output Directory" name="RepoOutputDir" prompt="RepoOutputDir?" promptNeeded="false" repositoryContextId="_Dbv-gCL7EeiNWOmlcjxXQw" type="id_String" value="&quot;D:/Talend/Test Data/New_Production/&quot;"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
