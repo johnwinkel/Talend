@@ -204,7 +204,7 @@
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_RmB-0CLuEeiNWOmlcjxXQw-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_kuU-ACLxEeiNWOmlcjxXQw-tMap_1-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
     <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
@@ -222,7 +222,7 @@
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-      <outputTables sizeState="INTERMEDIATE" name="CappedOut">
+      <outputTables sizeState="INTERMEDIATE" name="CappedOut" expressionFilter="&quot;CA&quot;.equals(row1.State)" activateExpressionFilter="true">
         <mapperTableEntries name="Name" expression="row1.First + &quot; &quot; + row1.Last " type="id_String" nullable="true"/>
         <mapperTableEntries name="Number" expression="row1.Number " type="id_String" nullable="true"/>
         <mapperTableEntries name="Street" expression="row1.Street " type="id_String" nullable="true"/>
