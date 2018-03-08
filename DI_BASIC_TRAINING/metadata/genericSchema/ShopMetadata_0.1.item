@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_3AbCECMBEeiNWOmlcjxXQw" name="repository.metadataGenericSchema" dataPackage="_3AbCESMBEeiNWOmlcjxXQw"/>
+  <TalendMetadata:GenericPackage xmi:id="_3AbCESMBEeiNWOmlcjxXQw" name="repository.metadataGenericSchema" dataManager="_3AbCECMBEeiNWOmlcjxXQw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_3AbCEiMBEeiNWOmlcjxXQw" id="_iL_J0CMBEeiNWOmlcjxXQw" label="ShopMetadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3AbCEyMBEeiNWOmlcjxXQw" name="ShopName" label="ShopName" length="10" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3AbCFCMBEeiNWOmlcjxXQw" name="CustID" label="CustID" length="-1" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3AbCFSMBEeiNWOmlcjxXQw" name="ProductID" label="ProductID" length="-1" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3AbCFiMBEeiNWOmlcjxXQw" name="Quality" label="Quality" length="-1" talendType="id_Integer"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>
