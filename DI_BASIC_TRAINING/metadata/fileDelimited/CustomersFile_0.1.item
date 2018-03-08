@@ -5,7 +5,7 @@
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_IGZ7UyLxEeiNWOmlcjxXQw" id="_tUEhQCLwEeiNWOmlcjxXQw" label="metadata">
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IGZ7VCLxEeiNWOmlcjxXQw" label="First" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IGZ7VSLxEeiNWOmlcjxXQw" label="Last" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IGZ7ViLxEeiNWOmlcjxXQw" label="Number" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IGZ7ViLxEeiNWOmlcjxXQw" label="Number" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IGZ7VyLxEeiNWOmlcjxXQw" label="Street" length="21" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IGZ7WCLxEeiNWOmlcjxXQw" label="City" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IGZ7WSLxEeiNWOmlcjxXQw" label="State" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
