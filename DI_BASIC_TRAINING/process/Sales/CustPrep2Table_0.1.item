@@ -359,7 +359,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.LocalMySQL_Database"/>
     <elementParameter field="TEXT" name="USER" value="context.LocalMySQL_Login"/>
     <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kufdQDml3Xw+wHS0PHcNu+nkdcyHijcLKJc="/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;CustomerMetadata&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;RetailCustomers&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
