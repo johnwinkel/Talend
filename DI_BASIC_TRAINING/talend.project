@@ -490,6 +490,7 @@
       <relatedItems xmi:id="_aC2ksSLvEeiNWOmlcjxXQw" id="_KMqkkCLuEeiNWOmlcjxXQw - StateCodesSchema" version="Latest" type="schema"/>
       <relatedItems xmi:id="_OPMegCLxEeiNWOmlcjxXQw" id="_IGZ7UCLxEeiNWOmlcjxXQw" version="Latest" type="property"/>
       <relatedItems xmi:id="_OPMegSLxEeiNWOmlcjxXQw" id="_IGZ7UCLxEeiNWOmlcjxXQw - metadata" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_y0AX0CO4EeibArNZPoA4aw" id="_IGZ7UCLxEeiNWOmlcjxXQw - CustomerMetadata" version="Latest" type="schema"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_kuc50CLxEeiNWOmlcjxXQw">
       <baseItem xmi:id="_kuc50SLxEeiNWOmlcjxXQw" id="_kuU-ACLxEeiNWOmlcjxXQw" version="0.1" type="job"/>

@@ -210,7 +210,11 @@
     <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
     <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>Mapstates to UPPER"/>
+    <elementParameter field="TEXT" name="HINT" value="Map states to Uppercase and consolidate first/last names"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="true"/>
+    <elementParameter field="MEMO" name="COMMENT" value="Once fully debugged it's ok to delete the tMap Join Failures and tLogRow component.  &#xD;&#xA;"/>
     <metadata connector="FLOW" label="CappedOut" name="CappedOut">
       <column comment="" key="false" length="15" name="Name" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="15" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="Number" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="10" usefulColumn="true"/>
@@ -220,7 +224,7 @@
       <column comment="" key="false" length="20" name="StateName" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="CappedOut">
         <mapperTableEntries name="Name" expression="row1.First + &quot; &quot; + row1.Last " type="id_String" nullable="true"/>
@@ -362,6 +366,14 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
   </connection>
+  <note opaque="true" posX="704" posY="32" sizeHeight="161" sizeWidth="321" text="Author:  John Winkel&#xD;&#xA;Created:  March 2018&#xD;&#xA;Revision:  March 2018 (Added Documentation)">
+    <elementParameter field="COLOR" name="NOTE_COLOR" value="225;225;135"/>
+    <elementParameter field="TEXT" name="NOTE_FONT" value="Arial"/>
+    <elementParameter field="CHECK" name="FONT_BOLD" value="true"/>
+  </note>
+  <note opaque="true" posX="192" posY="320" sizeHeight="128" sizeWidth="417" text="TODO:&#xD;&#xA;*  Add a numeric sequential ID to the output flow&#xD;&#xA;*  Remove tLogRow when debugging complete&#xD;&#xA;*  Once tested, change output from file to db&#xD;&#xA;">
+    <elementParameter field="COLOR" name="NOTE_COLOR" value="228;179;229"/>
+  </note>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
