@@ -654,7 +654,6 @@
       <relatedItems xmi:id="_GJ--wyOdEeibArNZPoA4aw" id="_sHS1ACMEEeiNWOmlcjxXQw" version="Latest" type="context"/>
       <relatedItems xmi:id="_GJ--xCOdEeibArNZPoA4aw" id="_Ro-4QCMGEeiNWOmlcjxXQw" version="Latest" type="context"/>
       <relatedItems xmi:id="_GJ--xSOdEeibArNZPoA4aw" id="_el0WkCMQEeiNWOmlcjxXQw" version="Latest" type="property"/>
-      <relatedItems xmi:id="_GJ--xiOdEeibArNZPoA4aw" id="_cXUDMCMGEeiNWOmlcjxXQw" version="Latest" type="property"/>
       <relatedItems xmi:id="_GJ--xyOdEeibArNZPoA4aw" id="SQLike" version="Latest" type="routine"/>
       <relatedItems xmi:id="_GJ--yCOdEeibArNZPoA4aw" id="Numeric" version="Latest" type="routine"/>
       <relatedItems xmi:id="_GJ--ySOdEeibArNZPoA4aw" id="TalendString" version="Latest" type="routine"/>
@@ -672,6 +671,7 @@
       <relatedItems xmi:id="_GJ--1SOdEeibArNZPoA4aw" id="MDM" version="Latest" type="routine"/>
       <relatedItems xmi:id="_GJ--1iOdEeibArNZPoA4aw" id="TalendStringUtil" version="Latest" type="routine"/>
       <relatedItems xmi:id="_GJ--1yOdEeibArNZPoA4aw" id="_cXUDMCMGEeiNWOmlcjxXQw - ProductMetadata" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_RO3MACOeEeibArNZPoA4aw" id="_3AabACMBEeiNWOmlcjxXQw - ShopMetadata" version="Latest" type="schema"/>
     </ItemsRelations>
     <migrationTask xmi:id="_qUqgACIjEei_UfOI_SfGbg" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_qUqgASIjEei_UfOI_SfGbg" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
