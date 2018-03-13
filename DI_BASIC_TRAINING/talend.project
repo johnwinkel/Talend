@@ -999,6 +999,13 @@
       <relatedItems xmi:id="_LKJs_CbSEeiNhLRpAHmQOw" id="Relational" version="Latest" type="routine"/>
       <relatedItems xmi:id="_LKJs_SbSEeiNhLRpAHmQOw" id="_DeEsoGTnEeKWJ_OZXqLpIg - customers" version="Latest" type="schema"/>
       <relatedItems xmi:id="_LKJs_ibSEeiNhLRpAHmQOw" id="_26EZgGTmEeKWJ_OZXqLpIg - customers" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_uear0CbSEeiNhLRpAHmQOw" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_uear0SbSEeiNhLRpAHmQOw" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_uear0ibSEeiNhLRpAHmQOw" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_uear0ybSEeiNhLRpAHmQOw" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_uear1CbSEeiNhLRpAHmQOw" id="DataQualityDependencies" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_uear1SbSEeiNhLRpAHmQOw" id="MDM" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_uear1ibSEeiNhLRpAHmQOw" id="TalendStringUtil" version="Latest" type="routine"/>
     </ItemsRelations>
     <migrationTask xmi:id="_qUqgACIjEei_UfOI_SfGbg" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_qUqgASIjEei_UfOI_SfGbg" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
