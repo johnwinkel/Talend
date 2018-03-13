@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
-  <TalendMetadata:DatabaseConnection xmi:id="_vxKDECbzEei0ZOywBPuTfg" name="UserData" id="_qDQsICbzEei0ZOywBPuTfg" label="UserData" dataPackage="_vxtcsCbzEei0ZOywBPuTfg _vxtcsSbzEei0ZOywBPuTfg _vxtcsibzEei0ZOywBPuTfg _vxtcsybzEei0ZOywBPuTfg _vxtctCbzEei0ZOywBPuTfg _vxtctSbzEei0ZOywBPuTfg _vxtctibzEei0ZOywBPuTfg _vxtctybzEei0ZOywBPuTfg _vxtcuCbzEei0ZOywBPuTfg _vxtcuSbzEei0ZOywBPuTfg _vxtcuibzEei0ZOywBPuTfg" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://server01:3306/?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="root" Password="1QY6ZyNqCD4BAhKeqSkILQ==" ServerName="server01" DatasourceName="" FileFieldName="" SID="" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
+  <TalendMetadata:DatabaseConnection xmi:id="_vxKDECbzEei0ZOywBPuTfg" name="UserData" id="_qDQsICbzEei0ZOywBPuTfg" label="UserData" dataPackage="_ZiDm0Cb3EeiBE9BWKdPFUg _ZiDm0Sb3EeiBE9BWKdPFUg _ZiDm0yb3EeiBE9BWKdPFUg _ZiDm1Cb3EeiBE9BWKdPFUg _ZiDm1Sb3EeiBE9BWKdPFUg _ZiDm1ib3EeiBE9BWKdPFUg _ZiDm1yb3EeiBE9BWKdPFUg _ZiDm2Cb3EeiBE9BWKdPFUg _ZiDm2Sb3EeiBE9BWKdPFUg _ZiDm2ib3EeiBE9BWKdPFUg _vxtcsibzEei0ZOywBPuTfg" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://server01:3306/?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="root" Password="1QY6ZyNqCD4BAhKeqSkILQ==" ServerName="server01" DatasourceName="" FileFieldName="" SID="" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
     <taggedValue xmi:id="_vxKDESbzEei0ZOywBPuTfg" tag="Is Conn Need Reload" value="false"/>
     <taggedValue xmi:id="_vxYskCbzEei0ZOywBPuTfg" tag="package filter" value=""/>
     <taggedValue xmi:id="_vxc-ACbzEei0ZOywBPuTfg" tag="Status" value=""/>
@@ -13,9 +13,18 @@
     <taggedValue xmi:id="_vxjrsCbzEei0ZOywBPuTfg" tag="DB ProductVersion" value="5.5.56-MariaDB"/>
     <taggedValue xmi:id="_vxjrsSbzEei0ZOywBPuTfg" tag="DB IdentifierQuoteString" value="`"/>
     <parameters xmi:id="_vxKDEibzEei0ZOywBPuTfg" key="CONN_PARA_KEY_USERNAME" value="root"/>
+    <parameters xmi:id="_WKywECb3EeiBE9BWKdPFUg" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_vxtcsCbzEei0ZOywBPuTfg" name="information_schema" dataManager="_vxKDECbzEei0ZOywBPuTfg"/>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_vxtcsSbzEei0ZOywBPuTfg" name="Training" dataManager="_vxKDECbzEei0ZOywBPuTfg"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_ZiDm0Cb3EeiBE9BWKdPFUg" name="information_schema" dataManager="_vxKDECbzEei0ZOywBPuTfg"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_ZiDm0Sb3EeiBE9BWKdPFUg" name="Training" dataManager="_vxKDECbzEei0ZOywBPuTfg"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_ZiDm0yb3EeiBE9BWKdPFUg" name="amc" dataManager="_vxKDECbzEei0ZOywBPuTfg"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_ZiDm1Cb3EeiBE9BWKdPFUg" name="dqp" dataManager="_vxKDECbzEei0ZOywBPuTfg"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_ZiDm1Sb3EeiBE9BWKdPFUg" name="mdm" dataManager="_vxKDECbzEei0ZOywBPuTfg"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_ZiDm1ib3EeiBE9BWKdPFUg" name="mysql" dataManager="_vxKDECbzEei0ZOywBPuTfg"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_ZiDm1yb3EeiBE9BWKdPFUg" name="performance_schema" dataManager="_vxKDECbzEei0ZOywBPuTfg"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_ZiDm2Cb3EeiBE9BWKdPFUg" name="tac" dataManager="_vxKDECbzEei0ZOywBPuTfg"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_ZiDm2Sb3EeiBE9BWKdPFUg" name="talend_dq" dataManager="_vxKDECbzEei0ZOywBPuTfg"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_ZiDm2ib3EeiBE9BWKdPFUg" name="test" dataManager="_vxKDECbzEei0ZOywBPuTfg"/>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_vxtcsibzEei0ZOywBPuTfg" name="UserData" dataManager="_vxKDECbzEei0ZOywBPuTfg">
     <ownedElement xsi:type="relational:TdTable" xmi:id="_rQhpICb2EeiBE9BWKdPFUg" name="userdata" id="_rQel0Cb2EeiBE9BWKdPFUg" label="userdata" tableType="TABLE">
       <taggedValue xmi:id="_rQhpISb2EeiBE9BWKdPFUg" tag="Comment" value=""/>
@@ -36,12 +45,4 @@
       </feature>
     </ownedElement>
   </orgomg.cwm.resource.relational:Catalog>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_vxtcsybzEei0ZOywBPuTfg" name="amc" dataManager="_vxKDECbzEei0ZOywBPuTfg"/>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_vxtctCbzEei0ZOywBPuTfg" name="dqp" dataManager="_vxKDECbzEei0ZOywBPuTfg"/>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_vxtctSbzEei0ZOywBPuTfg" name="mdm" dataManager="_vxKDECbzEei0ZOywBPuTfg"/>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_vxtctibzEei0ZOywBPuTfg" name="mysql" dataManager="_vxKDECbzEei0ZOywBPuTfg"/>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_vxtctybzEei0ZOywBPuTfg" name="performance_schema" dataManager="_vxKDECbzEei0ZOywBPuTfg"/>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_vxtcuCbzEei0ZOywBPuTfg" name="tac" dataManager="_vxKDECbzEei0ZOywBPuTfg"/>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_vxtcuSbzEei0ZOywBPuTfg" name="talend_dq" dataManager="_vxKDECbzEei0ZOywBPuTfg"/>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_vxtcuibzEei0ZOywBPuTfg" name="test" dataManager="_vxKDECbzEei0ZOywBPuTfg"/>
 </xmi:XMI>
