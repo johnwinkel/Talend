@@ -919,12 +919,12 @@
       <relatedItems xmi:id="_T4i7Gya_EeiHDseqgBvvig" id="Mathematical" version="Latest" type="routine"/>
       <relatedItems xmi:id="_T4i7HCa_EeiHDseqgBvvig" id="Relational" version="Latest" type="routine"/>
       <relatedItems xmi:id="_T4i7HSa_EeiHDseqgBvvig" id="DQTechnical" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_T4i7Hia_EeiHDseqgBvvig" id="_eBn84P7xEeSgjrPDZFTtUw - customers_metadata" version="Latest" type="schema"/>
       <relatedItems xmi:id="_cxvwYCa_EeiHDseqgBvvig" id="DataMasking" version="Latest" type="routine"/>
       <relatedItems xmi:id="_cxvwYSa_EeiHDseqgBvvig" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_cxvwYia_EeiHDseqgBvvig" id="MDM" version="Latest" type="routine"/>
       <relatedItems xmi:id="_cxvwYya_EeiHDseqgBvvig" id="TalendStringUtil" version="Latest" type="routine"/>
       <relatedItems xmi:id="_9sFqgCa_EeiHDseqgBvvig" id="_qy8aQCa_EeiHDseqgBvvig" version="Latest" type="joblet"/>
+      <relatedItems xmi:id="_WqLDQCbBEeiHDseqgBvvig" id="_Q9oMoCbAEeiHDseqgBvvig" version="Latest" type="joblet"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_rR9RgCa_EeiHDseqgBvvig">
       <baseItem xmi:id="_rR9RgSa_EeiHDseqgBvvig" id="_qy8aQCa_EeiHDseqgBvvig" version="0.1" type="joblet"/>
