@@ -1028,7 +1028,6 @@
     </ItemsRelations>
     <ItemsRelations xmi:id="_00NdUCbfEeiNhLRpAHmQOw">
       <baseItem xmi:id="_00NdUSbfEeiNhLRpAHmQOw" id="_WQVG8IrYEd2xUKNKyEp6fg" version="0.1" type="job"/>
-      <relatedItems xmi:id="_00NdUibfEeiNhLRpAHmQOw" id="_CIWlwH-UEeK3V_rjYXUsOA" version="Latest" type="property"/>
       <relatedItems xmi:id="_00NdUybfEeiNhLRpAHmQOw" id="_K01CcE3AEeOwYf1xuHiFJA" version="Latest" type="property"/>
       <relatedItems xmi:id="_00NdVCbfEeiNhLRpAHmQOw" id="SQLike" version="Latest" type="routine"/>
       <relatedItems xmi:id="_00NdVSbfEeiNhLRpAHmQOw" id="Numeric" version="Latest" type="routine"/>
@@ -1041,6 +1040,13 @@
       <relatedItems xmi:id="_00NdXCbfEeiNhLRpAHmQOw" id="Relational" version="Latest" type="routine"/>
       <relatedItems xmi:id="_00NdXSbfEeiNhLRpAHmQOw" id="JobConductorWS" version="Latest" type="routine"/>
       <relatedItems xmi:id="_00NdXibfEeiNhLRpAHmQOw" id="_2h2_gIrWEd2xUKNKyEp6fg - flowmetercatcher" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_eDykECbgEeiNhLRpAHmQOw" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_eDykESbgEeiNhLRpAHmQOw" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_eDykEibgEeiNhLRpAHmQOw" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_eDykEybgEeiNhLRpAHmQOw" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_eDykFCbgEeiNhLRpAHmQOw" id="DataQualityDependencies" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_eDykFSbgEeiNhLRpAHmQOw" id="MDM" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_eDykFibgEeiNhLRpAHmQOw" id="TalendStringUtil" version="Latest" type="routine"/>
     </ItemsRelations>
     <migrationTask xmi:id="_qUqgACIjEei_UfOI_SfGbg" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_qUqgASIjEei_UfOI_SfGbg" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
