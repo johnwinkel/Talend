@@ -4,4 +4,5 @@
   <softwaredeployment:TdSoftwareSystem xmi:id="_vBYhQCI4EeiZBpKh8MF_gg" name="MySQL" subtype="MySQL" version="5.6.26-log"/>
   <softwaredeployment:TdSoftwareSystem xmi:id="_vBcLoCI4EeiZBpKh8MF_gg" name="Oracle" subtype="Oracle" version="Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production"/>
   <softwaredeployment:TdSoftwareSystem xmi:id="_vB2bUCI4EeiZBpKh8MF_gg" name="PostgreSQL" subtype="PostgreSQL" version="9.5.3"/>
+  <softwaredeployment:TdSoftwareSystem xmi:id="_vyPBICbzEei0ZOywBPuTfg" name="MySQL" subtype="MySQL" version="5.5.20"/>
 </xmi:XMI>
