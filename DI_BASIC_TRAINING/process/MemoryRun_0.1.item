@@ -339,7 +339,7 @@
       <elementValue elementRef="INPUT_COLUMN" value="ID"/>
       <elementValue elementRef="FUNCTION" value=""/>
       <elementValue elementRef="OPERATOR" value="=="/>
-      <elementValue elementRef="RVALUE" value=""/>
+      <elementValue elementRef="RVALUE" value="10"/>
     </elementParameter>
   </connection>
   <connection connectorName="FLOW" label="SortFirstName" lineStyle="0" metaname="tSortRow_1" offsetLabelX="0" offsetLabelY="0" source="tSortRow_1" target="tLogRow_1">
