@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcontainer:TestContainer xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:testcontainer="http://www.talend.com/testcontainer.ecore" xmi:id="_hbqugCeTEeiu8NIFB0UV_g">
+  <parameters xmi:id="_hbrVkCeTEeiu8NIFB0UV_g">
+    <routinesParameter xmi:id="_hbrVkSeTEeiu8NIFB0UV_g" id="_qcSK8CIjEei_UfOI_SfGbg" name="DQTechnical"/>
+    <routinesParameter xmi:id="_hbrVkieTEeiu8NIFB0UV_g" id="_qcat0CIjEei_UfOI_SfGbg" name="DataMasking"/>
+    <routinesParameter xmi:id="_hbrVkyeTEeiu8NIFB0UV_g" id="_qb2GECIjEei_UfOI_SfGbg" name="DataOperation"/>
+    <routinesParameter xmi:id="_hbrVlCeTEeiu8NIFB0UV_g" id="_qcUAICIjEei_UfOI_SfGbg" name="DataQualityDependencies"/>
+    <routinesParameter xmi:id="_hbrVlSeTEeiu8NIFB0UV_g" id="_qcYRkCIjEei_UfOI_SfGbg" name="DataQuality"/>
+    <routinesParameter xmi:id="_hbrVlieTEeiu8NIFB0UV_g" id="_qcIZ8CIjEei_UfOI_SfGbg" name="DqStringHandling"/>
+    <routinesParameter xmi:id="_hbrVlyeTEeiu8NIFB0UV_g" id="_qcGkwCIjEei_UfOI_SfGbg" name="MDM"/>
+    <routinesParameter xmi:id="_hbrVmCeTEeiu8NIFB0UV_g" id="_qb0Q4CIjEei_UfOI_SfGbg" name="Mathematical"/>
+    <routinesParameter xmi:id="_hbrVmSeTEeiu8NIFB0UV_g" id="_qb9a0CIjEei_UfOI_SfGbg" name="Numeric"/>
+    <routinesParameter xmi:id="_hbrVmieTEeiu8NIFB0UV_g" id="_qW1DMCIjEei_UfOI_SfGbg" name="Relational"/>
+    <routinesParameter xmi:id="_hbrVmyeTEeiu8NIFB0UV_g" id="_qcEvkCIjEei_UfOI_SfGbg" name="SQLike"/>
+    <routinesParameter xmi:id="_hbrVnCeTEeiu8NIFB0UV_g" id="_qb4iUCIjEei_UfOI_SfGbg" name="StringHandling"/>
+    <routinesParameter xmi:id="_hbrVnSeTEeiu8NIFB0UV_g" id="_qbv_cCIjEei_UfOI_SfGbg" name="TalendDataGenerator"/>
+    <routinesParameter xmi:id="_hbrVnieTEeiu8NIFB0UV_g" id="_qbybsCIjEei_UfOI_SfGbg" name="TalendDate"/>
+    <routinesParameter xmi:id="_hbrVnyeTEeiu8NIFB0UV_g" id="_qb6-kCIjEei_UfOI_SfGbg" name="TalendStringUtil"/>
+    <routinesParameter xmi:id="_hbrVoCeTEeiu8NIFB0UV_g" id="_qb_QACIjEei_UfOI_SfGbg" name="TalendString"/>
+  </parameters>
+</testcontainer:TestContainer>
