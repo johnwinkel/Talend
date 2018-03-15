@@ -1006,6 +1006,7 @@
       <relatedItems xmi:id="_xYpL1CbTEeiNhLRpAHmQOw" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_xYpL1SbTEeiNhLRpAHmQOw" id="MDM" version="Latest" type="routine"/>
       <relatedItems xmi:id="_xYpL1ibTEeiNhLRpAHmQOw" id="TalendStringUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_x3kMEChKEeiuXqA6Mf50hg" id="_K01CcE3AEeOwYf1xuHiFJA" version="Latest" type="property"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_BqvyQCbdEeiNhLRpAHmQOw">
       <baseItem xmi:id="_BqvyQSbdEeiNhLRpAHmQOw" id="_kXO04CbcEeiNhLRpAHmQOw" version="0.1" type="job"/>
