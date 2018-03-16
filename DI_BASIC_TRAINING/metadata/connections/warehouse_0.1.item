@@ -15,6 +15,7 @@
     <taggedValue xmi:id="_QjD2sCkUEeiKLIVFqGDV2A" tag="Is Conn Need Reload" value="false"/>
     <queries xmi:id="_RLYtAGTuEeKWJ_OZXqLpIg">
       <query xmi:id="_RLYtAWTuEeKWJ_OZXqLpIg" id="_RLYtAmTuEeKWJ_OZXqLpIg" label="SelectAll" value="select customers.id,customers.firstname,customers.name,customers.age &#xA;from customers"/>
+      <query xmi:id="_5eFpwCkUEeiKLIVFqGDV2A" id="_5eFCsCkUEeiKLIVFqGDV2A" comment="Query to select all Customers in warehouse table" label="SelectAlljw" value="select customers.id,customers.firstname,customers.name,customers.age &#xA;from customers"/>
     </queries>
     <parameters xmi:id="_QiOJMCkUEeiKLIVFqGDV2A" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
