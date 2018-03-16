@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_8J28YCkoEeiKLIVFqGDV2A" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_8J28YSkoEeiKLIVFqGDV2A" comment="" name="CDC_Server" prompt="CDC_Server?" promptNeeded="false" type="id_String" value="server01"/>
+  <contextParameter xmi:id="_8J28YikoEeiKLIVFqGDV2A" comment="" name="CDC_Port" prompt="CDC_Port?" promptNeeded="false" type="id_String" value="3306"/>
+  <contextParameter xmi:id="_8J28YykoEeiKLIVFqGDV2A" comment="" name="CDC_Login" prompt="CDC_Login?" promptNeeded="false" type="id_String" value="root"/>
+  <contextParameter xmi:id="_8J28ZCkoEeiKLIVFqGDV2A" comment="" name="CDC_Database" prompt="CDC_Database?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_8J28ZSkoEeiKLIVFqGDV2A" comment="" name="CDC_AdditionalParams" prompt="CDC_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+  <contextParameter xmi:id="_8J28ZikoEeiKLIVFqGDV2A" comment="" name="CDC_Password" prompt="CDC_Password?" promptNeeded="false" type="id_Password" value="1QY6ZyNqCD4BAhKeqSkILQ=="/>
+</talendfile:ContextType>
