@@ -14,6 +14,15 @@
     <taggedValue xmi:id="_26bl6GTmEeKWJ_OZXqLpIg" tag="DB IdentifierQuoteString" value="`"/>
     <taggedValue xmi:id="_JMFCECkUEeiKLIVFqGDV2A" tag="Is Conn Need Reload" value="false"/>
     <queries xmi:id="_FKcDoGTuEeKWJ_OZXqLpIg"/>
+    <cdcConns xmi:id="_51_DMClSEei3Jaozog1OQA">
+      <cdcTypes xmi:id="_51_qQClSEei3Jaozog1OQA" linkDB="_n6ASgCkVEeiKLIVFqGDV2A" cdcConnection="_51_DMClSEei3Jaozog1OQA">
+        <subscribers xmi:id="_52ARUClSEei3Jaozog1OQA" name="TSUBSCRIBERS" id="_51_qQSlSEei3Jaozog1OQA" label="TSUBSCRIBERS" system="true">
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_52ARUSlSEei3Jaozog1OQA" name="TALEND_CDC_TABLE_TO_WATCH" label="TALEND_CDC_TABLE_TO_WATCH" length="35" sourceType="VARCHAR2" talendType="id_String" key="true" nullable="false"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_52ARUilSEei3Jaozog1OQA" name="TALEND_CDC_SUBSCRIBER_NAME" label="TALEND_CDC_SUBSCRIBER_NAME" length="50" sourceType="VARCHAR2" talendType="id_String" key="true" nullable="false"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_52ARUylSEei3Jaozog1OQA" name="TALEND_CDC_CREATION_DATE" label="TALEND_CDC_CREATION_DATE" length="50" sourceType="DATE" talendType="id_Date" nullable="false"/>
+        </subscribers>
+      </cdcTypes>
+    </cdcConns>
     <parameters xmi:id="_JK7ykCkUEeiKLIVFqGDV2A" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_jEvi8GToEeKWJ_OZXqLpIg" name="unit_data" dataManager="_26FAkGTmEeKWJ_OZXqLpIg">
